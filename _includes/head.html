@@ -1,0 +1,73 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="IgniteSTEM, hackathon, education, education conference, Princeton, Princeton University, maker faire, design thinking">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "//feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!--Facebook-->
+    <meta property="og:title" content="IgniteStem" />
+    <meta property="og:description" content="Bringing Hackathons, Maker Faires, and Design Thinking to your students." />
+    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta property="og:image" content="{{ "/assets/images/IgniteStemLogo.png" | prepend: site.baseurl }}"/>
+
+    <!-- Favicons  -->
+    <link rel="shortcut icon" href="{{ "/assets/images/igniteSTEMFavicon.ico" | prepend: site.url }}" type="image/x-icon">
+    <!-- <link rel="apple-touch-icon" href="{{ "/assets/images/apple-touch-icon.png"  | prepend: site.url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/images/apple-touch-icon-72x72.png" | prepend: site.url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/assets/images/apple-touch-icon-114x114.png" | prepend: site.url }}"> -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="{{ "/css/legacy/bootstrap.css" | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/fonts/font-awesome/css/font-awesome.css" | prepend: site.url }}">
+
+    <!-- Slider -->
+    <link href="{{ "/css/legacy/owl.carousel.css" | prepend: site.url }}" rel="stylesheet" media="screen">
+    <link href="{{ "/css/legacy/owl.theme.css" | prepend: site.url }}" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css"  href="{{ "/css/legacy/style.css" | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/css/legacy/responsive.css" | prepend: site.url }}">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="{{ "/js/modernizr.custom.js" | prepend: site.url }}"></script>
+
+    <!-- React -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.url }}"></script>
+    <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.url }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="{{ "/js/bootstrap.js" | prpend: site.url }}"></script>
+    <script type="text/javascript" src="{{ "/js/SmoothScroll.js" | prpend: site.url }}"></script>
+    <script type="text/javascript" src="{{ "/js/jquery.isotope.js" | prpend: site.url }}"></script>
+    <script src="{{ "/js/owl.carousel.js" | prepend: site.url }}"></script>
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119592300-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119592300-1');
+    </script>
+
+</head>
