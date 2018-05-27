@@ -4,10 +4,10 @@
     <title>IgniteSTEM</title>
     <description>Bring Hackathons, Maker Faires and Design Thinking to your students.
 </description>
-    <link>http://localhost:5555/</link>
-    <atom:link href="http://localhost:5555/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 May 2018 19:37:11 -0400</pubDate>
-    <lastBuildDate>Fri, 25 May 2018 19:37:11 -0400</lastBuildDate>
+    <link>http://ignitestem.org/</link>
+    <atom:link href="http://ignitestem.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 May 2018 17:40:10 -0700</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 17:40:10 -0700</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -16,9 +16,9 @@
 
 &lt;p&gt;Kevin also uses the 20 percent time or genius hour in his everyday curriculum that stimulates students learn about their passions, and has been instrumental in the elementary Science curriculum rewrite to be inline with the  NGSS. His next goal is to start an elementary hackathon in his district, and plans to use the funds of this award to do just that.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 18 May 2018 08:39:13 -0400</pubDate>
-        <link>http://localhost:5555/2018/05/18/ignitestem-2018-teacher-award.html</link>
-        <guid isPermaLink="true">http://localhost:5555/2018/05/18/ignitestem-2018-teacher-award.html</guid>
+        <pubDate>Fri, 18 May 2018 05:39:13 -0700</pubDate>
+        <link>http://ignitestem.org/2018/05/18/ignitestem-2018-teacher-award.html</link>
+        <guid isPermaLink="true">http://ignitestem.org/2018/05/18/ignitestem-2018-teacher-award.html</guid>
         
         
       </item>
