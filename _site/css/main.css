@@ -465,9 +465,17 @@ pre {
 .testimonials-blog {
   float: left;
   width: -webkit-calc(100% - 300px); }
+  @media screen and (max-width: 600px) {
+    .testimonials-blog {
+      float: left;
+      width: 100%; } }
 .testimonials-twitter {
   float: right;
   width: 300px; }
+  @media screen and (max-width: 600px) {
+    .testimonials-twitter {
+      float: left;
+      width: 100%; } }
 
 /* carousel */
 #quote-carousel {

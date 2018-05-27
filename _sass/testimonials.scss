@@ -46,11 +46,21 @@ $widget-width: 300px;
     &-blog {
         float: left;
         width: -webkit-calc(100% - #{$widget-width});
+
+        @include media-query($on-palm) {
+            float: left;
+            width: 100%;
+        }
     }
 
     &-twitter {
         float: right;
         width: $widget-width;
+
+        @include media-query($on-palm) {
+            float: left;
+            width: 100%;
+        }
     }
 }
 
