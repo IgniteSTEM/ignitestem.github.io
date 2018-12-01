@@ -69,9 +69,7 @@ a {
   color: #E96F0A;
   text-decoration: none; }
   a:visited {
-    color: #E96F0A; }
-  a.btn:visited {
-    color: #5a5a5a; }
+    color: #66330a; }
   a:hover {
     color: #5a5a5a;
     text-decoration: underline; }
