@@ -71,8 +71,7 @@ a {
   a:visited {
     color: #E96F0A; }
   a:hover {
-    /*color: #5a5a5a;*/
-    color: #FFF;
+    color: #5a5a5a;
     text-decoration: underline; }
 
 /**
