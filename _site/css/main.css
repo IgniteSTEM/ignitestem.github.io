@@ -69,9 +69,10 @@ a {
   color: #E96F0A;
   text-decoration: none; }
   a:visited {
-    color: #66330a; }
+    color: #E96F0A; }
   a:hover {
-    color: #5a5a5a;
+    /*color: #5a5a5a;*/
+    color: #FFF;
     text-decoration: underline; }
 
 /**
