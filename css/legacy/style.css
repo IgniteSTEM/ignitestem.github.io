@@ -52,6 +52,9 @@ a.link:focus {
 	text-decoration: none;
 	color: #E96F0A;
 }
+a.link.btn {
+	color: #ffffff;
+}
 
 .section-title hr{
 	border-color: #E96F0A;
