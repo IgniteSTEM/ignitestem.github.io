@@ -2984,8 +2984,6 @@ select[multiple].form-group-lg .form-control {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  white-space:normal !important;
-  word-wrap: break-word; 
 }
 .btn:focus,
 .btn:active:focus,
@@ -3329,8 +3327,6 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
-  white-space:normal !important;
-  word-wrap: break-word; 
 }
 .btn-sm,
 .btn-group-sm > .btn {
