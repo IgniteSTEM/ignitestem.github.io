@@ -674,8 +674,6 @@ button.btn.tf-btn.btn-default {
 	padding: 10px 40px;
 	color: #ffffff;
 	text-transform: uppercase;
-	white-space:normal !important;
-    word-wrap: break-word; 
 }
 
 .btn:active, .btn.active {
@@ -683,8 +681,6 @@ button.btn.tf-btn.btn-default {
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	white-space:normal !important;
-    word-wrap: break-word; 
 }
 
 .btn:focus,
