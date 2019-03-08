@@ -2973,6 +2973,7 @@ select[multiple].form-group-lg .form-control {
   line-height: 1.42857143;
   text-align: center;
   white-space: normal !important;
+  word-wrap: break-word; 
   vertical-align: middle;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
